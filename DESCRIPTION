@@ -1,0 +1,25 @@
+Package: plotshadow 
+Version: 0.1
+Authors@R: c(
+    person("De Santana", "Charles", , "charles.santana@gmail.com", c("aut", "cre"))
+    )
+Title: Plotting shadow curves in R 
+Description: Plotting shadow curves in R. 
+Depends:
+    R (>= 3.1)
+Imports:
+    lattice,
+    gridBase,
+    MASS,
+    RColorBrewer 
+Suggests:
+    lattice,
+Enhances: sp
+License: GPL-2
+URL: https://github.com/cndesantana/plotshadow
+BugReports:https://github.com/cndesantana/plotshadow/issues
+LazyData: true
+Collate:
+    'plotshadow.r'
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
